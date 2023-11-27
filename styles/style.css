@@ -5,13 +5,13 @@ body {
 
 }
 
-.overlay:before {
+body::before {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
   inset: 0;
-  background-color: rgb(255 255 255 / 0.3);
+  background-color: rgb(255 255 255 / 0.9);
 
 }
 
@@ -80,7 +80,7 @@ video {
     border: 2px solid black;
     right: 20px;
     top: 120px;
-    box-shadow: 0 16px 20px 0 black;
+    box-shadow: 0 16px 0 0 black;
     z-index: 3;
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;

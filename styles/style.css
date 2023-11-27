@@ -27,9 +27,6 @@ video {
     max-height: 900px;
 } 
 
-
-
-
 .page__heading {
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +41,6 @@ video {
     letter-spacing: 3.5px;
     text-transform: uppercase;
 }
-
 
 .page__heading_span {
     display: flex;
@@ -81,11 +77,11 @@ video {
     line-height: 35px;
     background-color: white;
     border-radius: 20px;
-    border: 2px solid black; 
+    border: 2px solid black;
     right: 20px;
-    top: 180px; 
+    top: 180px;
     box-shadow: 0 16px 20px 0 black;
     z-index: 3;
     content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
     white-space: pre;
-} 
+}

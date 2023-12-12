@@ -11,9 +11,8 @@ html {
 body {
   display: flex;
   height: 100%;
-
+  position: relative;
   font-family: Raleway, serif;
-
   margin: 0;
 
 

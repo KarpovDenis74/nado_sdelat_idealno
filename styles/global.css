@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  position: relative;
+  font-family: Raleway, serif;
+  margin: 0;
+
+
+  /* display: grid;
+  grid-template-rows: 276px 600px 257px 200px 580px 200px  490px 200px 100px 100px;
+  grid-template-columns: 1fr 50px 430px 25px 430px 25px 430px 50px; */
+
+
+
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}

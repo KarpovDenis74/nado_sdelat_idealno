@@ -17,6 +17,8 @@
 
 .page__video {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -53,7 +55,7 @@
   right: 20px;
   top: 180px;
   max-width: 760px;
-  border: 2px solid black;
+  border: 2px solid currentColor;
   border-radius: 20px;
   padding: 36px 44px;
   box-shadow: 0 12px 0 0 black;

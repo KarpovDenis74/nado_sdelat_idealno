@@ -1,0 +1,14 @@
+var view = UIView()
+view.frame = CGRect(x: 0, y: 0, width: 91, height: 91)
+view.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+var stroke = UIView()
+stroke.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+stroke.center = view.center
+view.addSubview(stroke)
+view.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+stroke.layer.borderWidth = 2
+stroke.layer.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1).cgColor
+
+var parent = self.view!
+parent.addSubview(view)
+view.translatesAutoresizingMaskIntoConstraints = false
